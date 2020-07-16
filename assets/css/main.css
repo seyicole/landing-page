@@ -4,7 +4,7 @@
   --mainBackground:#E6F4F1;
   --darkBlue: #005B8D;
   --mainWhite:#FFFFFF;
-  --mainBlack:#292F36;
+  --mainBlack:#324B4B;
   --mainAqua: #11C0C3;
   --mainGreen:#8BF8B8;
 }
@@ -23,21 +23,55 @@ body{
 
 .index-header p{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 52px;
   color: var(--darkBlue);
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .index-header span{
   color: var(--mainAqua);
 }
 
-.s-text{
-  border: 2px solid var(--mainWhite);
-  border-collapse: separate;
-  border-spacing: 1px;
-  background-color: var(--mainGreen);
-  border-top-right-radius: 2rem;
-  padding: 2rem 2rem 0rem 2rem;
+.img-fluid {
+  max-width: 90%!important;
+  height: auto;
+}
+
+p.smaller-text{
+ color: var(--mainBlack);
+ font-size: 1.2rem;
+ line-height: 2rem;
+ font-weight: 600;
+}
+
+.email-text p{
+  color: #EB5757;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 4rem;
+  line-height: 1rem;
+}
+
+form{
+  border: 2px solid #11C0C3;
+  border-radius: 5px;
+  max-width: 20.2rem;
+  min-height: 2.8rem;
+}
+
+form button.btn{
+  background-color: var(--mainAqua);
+  border-color: var(--mainAqua);
+}
+
+input#email.form-control{
+  background-color: var(--mainBackground);
+  border-color: var(--mainBackground);
+}
+
+@media only screen and (max-width: 700px){
+  button.btn.btn-primary{
+    min-width: 100%;
+  }
 }
