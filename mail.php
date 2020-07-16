@@ -6,7 +6,7 @@
 	// $localhost = '3306'
 
 	// Database connection
-	$conn = new mysqli('localhost:3306','root','','contact_list');
+	$conn = new mysqli('localhost:8889','root','','contact_list');
 	if($conn->connect_error){
 		die('Connection Failed : ' .$conn->connect_error);
 	}else{
