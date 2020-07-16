@@ -18,7 +18,7 @@ body{
 
 
 .index-header{
-  max-height: 70vh;
+  max-height: 100vh;
 }
 
 .index-header p{
@@ -70,8 +70,41 @@ input#email.form-control{
   border-color: var(--mainBackground);
 }
 
+/* sections */
+
+.sections{
+  background: var(--mainWhite);
+  border-radius: 1.5rem;
+}
+
+section h2{
+  font-size: 1.4rem;
+  color: var(--mainAqua);
+  font-weight: bold;
+}
+
+section h3{
+  font-size: 2rem;
+  color: var(--mainBlack);
+  font-weight: bold;
+}
+
+section h4{
+  font-size: 2rem;
+  color: var(--mainAqua);
+  font-weight: bold;
+}
+
+
+
 @media only screen and (max-width: 700px){
   button.btn.btn-primary{
     min-width: 100%;
+  }
+
+  .footer{
+    flex-direction: column;
+    text-align: center;
+    
   }
 }
