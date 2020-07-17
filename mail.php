@@ -3,10 +3,13 @@
 	ini_set('display_errors', 1);
 
 	$email = $_POST['email'];
-	// $localhost = '3306'
+	$localhost = '3306';
+	$username = 'o9w2w6lymas6igde';
+	$password = 'dwvordeam413ho4p';
+	$database = 'aiu6dk5d4qhsumdv';
 
 	// Database connection
-	$conn = new mysqli('localhost:8889','root','','contact_list');
+	$conn = new mysqli($localhost, $username, $password, $database);
 	if($conn->connect_error){
 		die('Connection Failed : ' .$conn->connect_error);
 	}else{
