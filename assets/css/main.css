@@ -74,7 +74,8 @@ input#email.form-control{
 
 .sections{
   background: var(--mainWhite);
-  border-radius: 1.5rem;
+  border-radius: 0;
+  margin-bottom: -5rem!important;
 }
 
 section h2{
@@ -94,6 +95,25 @@ section h4{
   color: var(--mainAqua);
   font-weight: bold;
 }
+
+.img-cursor{
+  cursor: pointer;
+}
+
+.mail-section{
+  padding-bottom: 5rem;
+}
+
+.f{
+  padding: 0rem!important;
+}
+
+
+.footer{
+  margin-top: 5rem;
+}
+
+
 
 
 
