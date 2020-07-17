@@ -9,7 +9,7 @@
 	// $database = 'aiu6dk5d4qhsumdv';
 
 	// Database connection
-	$conn = new mysqli('port:3306', 'o9w2w6lymas6igde', 'dwvordeam413ho4p', 'aiu6dk5d4qhsumdv');
+	$conn = new mysqli('3306', 'o9w2w6lymas6igde', 'dwvordeam413ho4p', 'aiu6dk5d4qhsumdv');
 	if($conn->connect_error){
 		die('Connection Failed : ' .$conn->connect_error);
 	}else{
